@@ -38,7 +38,7 @@ def convert_image(image, out_file, num_transparent_pixels=1):
             if args.verbose:
                 print("setting pixel", ox+num_transparent_pixels*ox, oy+num_transparent_pixels*oy,
                       "to", image.getpixel((ox, oy)))
-    newImage.save(out_file + '_' + str(image.size[1]) + '.png')
+    newImage.save(out_file + '_' + str(image.size[0]) + '.png')
     return
 
 print("PxlTemplateCreator - create your templates the easy way")
