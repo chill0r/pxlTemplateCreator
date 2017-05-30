@@ -1,0 +1,41 @@
+=============================================================================
+Pxls space template generator by Haruna
+=============================================================================
+
+For the license see LICENSE.txt
+
+=============================================================================
+1) How to use:
+
+Basic usage:
+Just drag and drop a image onto the PxlTemplateCreator.exe
+The template will be saved in this directory named ORIGINALNAME_template_SOMENUMBER.png
+On pxls.space you can use this template now BUT you need to add another parameter
+to the url - the tw
+Just write &tw=THE_NUMBER_FROM_THE_TEMPLATE_NAME after your pxls url with the template and
+reload the site
+
+Advanced usage:
+Open a commandline in this directory.
+In there you can add some parameters to PxlTemplateCreator.exe on call:
+-h: Prints the help
+-num_transparent_pixels: Number of transparent pixels between each original pixel
+-v: verbose
+-out: Ouput filename
+e.g. PxlTemplateCreator.exe IMAGEPATH -num_transparent_pixels 2 -v -out MyTemplate
+The output filename will be followed by _ORIGINALIMAGEWIDTH.png so no need for you to add
+this.
+For how to use this on pxls.space see the basic usage section.
+
+=============================================================================
+2) I found a bug / I have a reaaaaly good idea...
+Either post it on github (https://github.com/chill0r/pxlTemplateCreator/issues)
+or talk to me on the official pxls.space discord (https://discord.gg/pxls)
+
+=============================================================================
+3) I don't trust you.... there is some keylogger / malware / bot / whatever 
+   in your program !!1!1!
+   
+If you did download it on my github you can see the source code too...
+Feel free to check it yourself
+
