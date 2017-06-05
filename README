@@ -20,8 +20,11 @@ Open a commandline in this directory.
 In there you can add some parameters to PxlTemplateCreator.exe on call:
 -h: Prints the help
 -num_transparent_pixels: Number of transparent pixels between each original pixel
+-num_solid_pixels: Number of transparent pixels between each transparent pixel
 -v: verbose
 -out: Ouput filename
+-generate_link: Upload the template to imgur and open a pxls.space template link in your
+	default webbrowser
 e.g. PxlTemplateCreator.exe IMAGEPATH -num_transparent_pixels 2 -v -out MyTemplate
 The output filename will be followed by _ORIGINALIMAGEWIDTH.png so no need for you to add
 this.
